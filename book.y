@@ -41,7 +41,7 @@ void yyerror(const char *s) {
 }
 
 int main() {
-    yyin = fopen("f.txt", "r"); 
+    yyin = fopen("book.txt", "r"); 
     if (!yyin) {
         fprintf(stderr, "Error opening file.\n");
         return 1;
