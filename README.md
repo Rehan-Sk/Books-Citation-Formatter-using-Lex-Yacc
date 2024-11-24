@@ -41,6 +41,5 @@ This will create an executable citation_formatter that can process your input fi
 Step 3: Run the Program
 To generate citations, run the program with the input file book.txt:
 
-Copy code
 ./citation_formatter book.txt
 The program will tokenize the book details, parse them, and print out the citation in the chosen format.
